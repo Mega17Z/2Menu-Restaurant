@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Young';
+    src: url('font-Images/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('font-Images/fonts/outfit/static/Outfit-Regular.ttf');
+}
+
+/* La page */
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.container .contenu{
+    padding: 0 20px;
+}
+
+.container hr{
+    background-color: hsl(30, 18%, 87%);
+}
+
+.container .image{
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.image img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container h1{
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young';
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.container p{
+    color: hsl(24, 5%, 18%);
+    font-family: 'Outfit';
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.container .time{
+    width: 90%;
+    background-color: hsl(330, 100%, 98%);
+    padding: 1px 15px 1px;
+    border-radius: 10px;
+}
+
+.time h4{
+    font-size: 16px;
+    margin-bottom: 0;
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit';
+}
+
+.time ul li{
+    font-family: 'Outfit';
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+    color: hsl(24, 5%, 18%);
+}
+
+.time ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.container h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young';
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.container ul{
+    padding-left: 1rem;
+}
+
+.container ul li{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    font-family: 'Outfit';
+    font-size: 13px;
+    color: hsl(24, 5%, 18%);
+}
+
+.container ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.container ol{
+    padding-left: 1rem;
+}
+
+.container ol li{
+    margin: 5px;
+    padding-left: 10px;
+    font-family: 'Outfit';
+    font-size: 11px;
+}
+
+.container ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.container .textable{
+    font-size: 13px;
+    font-family: 'Outfit';
+}
+
+.container table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container table tr{
+    font-family: 'Outfit';
+    font-size: 13px;
+}
+
+table tr td{
+    padding: 5px;
+    padding-left: 1rem;
+}
+
+table tr, th, td{
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+th{
+    color: hsl(14, 45%, 36%);
+}
+
+@media (max-width: 315px) {
+    .container .image{
+        padding: 0;
+    }
+}
